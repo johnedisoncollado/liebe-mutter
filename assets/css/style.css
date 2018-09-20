@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.jumbotron{
+	background-color: #141414;
+	height: 100vh;
+	border-radius: 0;
+}
+
+#about-landing{
+	color: #424242;
+	font-size: 5em;
+	padding-top: 20vh;
+	letter-spacing: 5px;
+}
+
+h1{ animation-duration: 4s;}
+h2{ animation-delay: 1s;}
+
+#mission{
+	height: 100%;
+	background-color: #141414;
+	color: #424242;
+}
+
+#vision{
+	height: 100%;
+	background-color: #424242;
+	color: #141414;
+}
+
