@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-with, initial-scale=1.0, maximum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<!--  -->
@@ -11,6 +11,8 @@
 	<!-- bootstrap.css -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+
 
 
 	<!--  -->
@@ -25,46 +27,57 @@
 
 	<!-- bootstrap js -->
 	<script type="text/javascript" src="./assets/js/bootstrap.js"></script>
-	<title>Gallery | Burger Nuke</title>
+	<title>Gallery | liebe mutter</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-secondary" id="navbar">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-danger" id="navbar">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">liebe mutter</a>
 
-		<a class="navbar-brand" href="#">Burger Nuke</strong></a>
-
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
 
-		<div class="collapse navbar-collapse" id="#navbarMenu">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="home.html">Home</a>
-				</li>			
-				<li class="nav-item">
-					<a class="nav-link" href="about.html">About</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="gallery.html">Gallery</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="contactus.html">Contact</a>
-				</li>
-			</ul>
+			<div class="collapse navbar-collapse text-right" id="menu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>			
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="gallery.html">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contactus.html">Contact</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		</nav>
+	</nav>
 	<h1>Gallery</h1>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<ul>
-						<li>
-							<img src="">
-						</li>
-					</ul>
-				</div>
-			</div>			
-		</div>
+	<div class="container">
+		<div class="row gallery">
+			<div class="col-lg-3">
+				<ul>
+					<li>
+						<img id="mem" src="assets/images/dad1.jpg">
+					</li>
+					<li>
+						<img id="mem" src="assets/images/mocha1.jpeg">
+					</li>
+					<li>						
+						<img id="mem" src="assets/images/wheat.jpeg">
+					</li>
+					<li>
+						<img id="mem" src="assets/images/dad1.jpg">
+					</li>
+
+				</ul>
+			</div>
+		</div>			
+	</div>
 </body>
 </html>

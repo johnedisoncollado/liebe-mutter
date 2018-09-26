@@ -24,9 +24,10 @@
     align-items: center;
     width: 100%;*/
 }
-.jumbotron{
+.about{
+	padding-top: 400px;
 	height: 40vh;
-	border-radius: 0;
+
 }
 
 #about-landing{
@@ -34,9 +35,10 @@
 	font-size: 5em;
 	text-align: center;
 	letter-spacing: 5px;
+	padding-top: 60px;
 }
 
-h1{ animation-duration: 4s;}
+.title{ animation-duration: 4s;}
 h2{ animation-delay: 1s;}
 
 .nav{
@@ -118,6 +120,17 @@ h2{ animation-delay: 1s;}
 	padding-bottom: 1em;
 }
 
+.gallery{
+	display: inline-block;
+	float: left;
+	margin: 10px;
+}
+
+#mem{
+	max-height: 200px;
+	max-width: auto;
+}
+
 #fixed{
 	background: url('../images/family1.jpeg') no-repeat center center fixed;
 
@@ -131,7 +144,7 @@ h2{ animation-delay: 1s;}
 footer{
 	width: 100%;
 	background-color: #d5d5d5;
-	padding: 5% 5% 5% 5%;
+
 	color: white;
 	font-size: 1.1rem;
 }
@@ -140,10 +153,6 @@ footer{
 	height: 80%;
 	width: 70%;
 }
-
-
-
-
 
 h1{
     display: inline-block;
